@@ -21,7 +21,7 @@
 git clone https://github.com/kechocy/CInfoCollect.git
 go mod tidy
 go build -ldflags "-H windowsgui" -o CInfoCollect.exe
-# 可以修改 client.go 中默认服务端域名或 IP
+# 可以修改 main.go 中默认服务端域名或 IP
 ```
 
 ## 启动
